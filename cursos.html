@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - AprendeYa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <span>AprendeYa</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html" class="active">Cursos</a></li>
+                    <li><a href="caracteristicas.html">Características</a></li>
+                    <li><a href="testimonios.html">Testimonios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-outline">Iniciar Sesión</a>
+                <a href="#" class="btn btn-primary">Registrarse</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Nuestros Cursos</h1>
+                <p>Explora nuestra amplia selección de cursos diseñados para ayudarte a alcanzar tus metas profesionales</p>
+            </div>
+        </section>
+
+        <!-- Course Categories -->
+        <section class="categories">
+            <div class="container">
+                <div class="categories-grid">
+                    <a href="#" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Desarrollo</h3>
+                        <p>25 cursos</p>
+                    </a>
+                    <a href="#" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Marketing</h3>
+                        <p>18 cursos</p>
+                    </a>
+                    <a href="#" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Diseño</h3>
+                        <p>15 cursos</p>
+                    </a>
+                    <a href="#" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Negocios</h3>
+                        <p>20 cursos</p>
+                    </a>
+                    <a href="#" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>Idiomas</h3>
+                        <p>12 cursos</p>
+                    </a>
+                    <a href="#" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Fotografía</h3>
+                        <p>10 cursos</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Courses -->
+        <section class="all-courses">
+            <div class="container">
+                <div class="courses-header">
+                    <h2>Todos los cursos</h2>
+                    <div class="courses-filter">
+                        <select name="sort" id="sort">
+                            <option value="popular">Más populares</option>
+                            <option value="newest">Más recientes</option>
+                            <option value="price-low">Precio: Bajo a Alto</option>
+                            <option value="price-high">Precio: Alto a Bajo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://img-c.udemycdn.com/course/750x422/4368122_c5cd_2.jpg" alt="Desarrollo Web Completo">
+                            <div class="course-badge bestseller">Más vendido</div>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta">
+                                <span class="course-category">Desarrollo</span>
+                                <span class="course-duration">40 horas</span>
+                            </div>
+                            <h3>Desarrollo Web Completo</h3>
+                            <p>Aprende HTML, CSS, JavaScript, React y Node.js desde cero hasta nivel avanzado.</p>
+                            <div class="course-footer">
+                                <span class="course-price">Bs 1200</span>
+                                <a href="#" class="btn btn-sm btn-outline">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://www.melit.es/wp-content/uploads/2024/01/curso-java-01.jpg" alt="Marketing Digital">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta">
+                                <span class="course-category">Desarrollo Backend</span>
+                                <span class="course-duration">35 horas</span>
+                            </div>
+                            <h3>Java desde Cero</h3>
+                            <p>Aprende a programar en Java desde cero y domina la programación orientada a objetos</p>
+                            <div class="course-footer">
+                                <span class="course-price">€49.99</span>
+                                <a href="#" class="btn btn-sm btn-outline">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://i.ytimg.com/vi/5mTyVtJDyFU/maxresdefault.jpg" alt="Diseño UX/UI">
+                            <div class="course-badge new">Nuevo</div>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta">
+                                <span class="course-category">Diseño</span>
+                                <span class="course-duration">30 horas</span>
+                            </div>
+                            <h3>Diseño UX/UI</h3>
+                            <p>Crea interfaces intuitivas y atractivas que mejoren la experiencia del usuario.</p>
+                            <div class="course-footer">
+                                <span class="course-price">€54.99</span>
+                                <a href="#" class="btn btn-sm btn-outline">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://www.datascience.pe/assets/portada/curso_gratuito_41.png" alt="Python para Data Science">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta">
+                                <span class="course-category">Desarrollo</span>
+                                <span class="course-duration">45 horas</span>
+                            </div>
+                            <h3>Python para Data Science</h3>
+                            <p>Aprende a analizar y visualizar datos con Python, Pandas, NumPy y Matplotlib.</p>
+                            <div class="course-footer">
+                                <span class="course-price">€64.99</span>
+                                <a href="#" class="btn btn-sm btn-outline">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://www.catho.com.br/carreira-sucesso/wp-content/uploads/sites/3/2022/05/carreira-para-quem-fala-ingles.jpg" alt="Inglés para Negocios">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta">
+                                <span class="course-category">Idiomas</span>
+                                <span class="course-duration">25 horas</span>
+                            </div>
+                            <h3>Inglés para Negocios</h3>
+                            <p>Mejora tu inglés profesional para destacar en entornos empresariales internacionales.</p>
+                            <div class="course-footer">
+                                <span class="course-price">Bs 350</span>
+                                <a href="#" class="btn btn-sm btn-outline">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://cdn.intuji.com/2022/09/Nestjs_hero1.png" alt="Fotografía Digital">
+                        </div>
+                        <div class="course-content">
+                            <div class="course-meta">
+                                <span class="course-category">Desarrollo Backend</span>
+                                <span class="course-duration">20 horas</span>
+                            </div>
+                            <h3>Nest JS</h3>
+                            <p>Domina tu desarrolo backend con Nest JS</p>
+                            <div class="course-footer">
+                                <span class="course-price">Bs 800</span>
+                                <a href="#" class="btn btn-sm btn-outline">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#" class="next">Siguiente <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Mantente actualizado</h2>
+                    <p>Suscríbete a nuestro boletín para recibir información sobre nuevos cursos y ofertas especiales.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="btn btn-primary">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-book-open"></i>
+                        <span>AprendeYa</span>
+                    </div>
+                    <p>Transformando el futuro a través de la educación en línea de calidad.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Plataforma</h3>
+                    <ul>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="#">Instructores</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Comunidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AprendeYa. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

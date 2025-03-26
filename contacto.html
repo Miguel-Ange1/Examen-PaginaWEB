@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - AprendeYa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <span>AprendeYa</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="caracteristicas.html">Características</a></li>
+                    <li><a href="testimonios.html">Testimonios</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-outline">Iniciar Sesión</a>
+                <a href="#" class="btn btn-primary">Registrarse</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contacto</h1>
+                <p>Estamos aquí para ayudarte. Ponte en contacto con nosotros para cualquier consulta o sugerencia</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Información de contacto</h2>
+                        <p>Nuestro equipo de soporte está disponible para ayudarte con cualquier duda o problema que puedas tener.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h3>Email</h3>
+                                    <p>miguel.040.net@gmail.com</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h3>Teléfono</h3>
+                                    <p>73054178</p>
+                                    <p>Lun-Vie: 9:00 - 18:00</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="method-details">
+                                    <h3>Dirección</h3>
+                                    <p>Upea</p>
+                                    <p>Villa Esperanza,</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-contact">
+                            <h3>Síguenos en redes sociales</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <h2>Envíanos un mensaje</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" placeholder="Tu email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono (opcional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Tu teléfono">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Selecciona un asunto</option>
+                                    <option value="general">Consulta general</option>
+                                    <option value="support">Soporte técnico</option>
+                                    <option value="billing">Facturación</option>
+                                    <option value="partnership">Colaboraciones</option>
+                                    <option value="other">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">Acepto la <a href="#">política de privacidad</a> y el tratamiento de mis datos.</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Preguntas frecuentes</h2>
+                    <p>Encuentra respuestas a las preguntas más comunes sobre nuestra plataforma</p>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cómo puedo inscribirme en un curso?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Para inscribirte en un curso, primero debes crear una cuenta en nuestra plataforma. Una vez registrado, puedes navegar por nuestro catálogo de cursos y seleccionar el que te interese. Haz clic en "Inscribirse" y sigue las instrucciones para completar el proceso de pago.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Cuáles son los métodos de pago aceptados?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Aceptamos pagos con tarjetas de crédito/débito (Visa, MasterCard, American Express), PayPal, y transferencia bancaria. También ofrecemos opciones de financiación para cursos de mayor valor.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Puedo acceder a los cursos desde cualquier dispositivo?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sí, nuestra plataforma es compatible con ordenadores, tablets y smartphones. También contamos con una aplicación móvil disponible para iOS y Android que te permite descargar las lecciones para verlas sin conexión.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Los cursos tienen fecha de caducidad?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No, una vez que te inscribes en un curso, tienes acceso de por vida al contenido, incluyendo todas las actualizaciones futuras que se realicen.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Ofrecen certificados al completar los cursos?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sí, al completar un curso recibirás un certificado digital verificable que puedes compartir en tu CV o en plataformas como LinkedIn para demostrar tus nuevas habilidades.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>¿Qué hago si tengo problemas técnicos?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Nuestro equipo de soporte técnico está disponible 24/7. Puedes contactarnos a través del formulario de contacto, por email a soporte@aprendeya.com o por teléfono al +34 912 345 678.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Encuéntranos</h2>
+                <div class="map-container">
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122427.73577920759!2d-68.20847243153958!3d-16.48228384925553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915ede3378ea9d6d%3A0x26cac4a2caefcb29!2sUniversidad%20P%C3%BAblica%20de%20El%20Alto!5e0!3m2!1ses!2sbo!4v1742946165094!5m2!1ses!2sbo" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-book-open"></i>
+                        <span>AprendeYa</span>
+                    </div>
+                    <p>Transformando el futuro a través de la educación en línea de calidad.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Plataforma</h3>
+                    <ul>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="#">Instructores</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Comunidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AprendeYa. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+
+        // FAQ toggle
+        document.querySelectorAll('.faq-question').forEach(function(question) {
+            question.addEventListener('click', function() {
+                this.parentElement.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
