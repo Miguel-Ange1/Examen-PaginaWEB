@@ -1035,6 +1035,10 @@ footer {
     border-radius: var(--border-radius);
     padding: 2rem;
     box-shadow: var(--box-shadow);
+    border: 2px solid var(--primary-color);
+}
+form-item{
+    border: 1px solid var(--primary-dark);
 }
 
 .contact-form-container h2 {
