@@ -604,6 +604,8 @@ footer {
     text-align: center;
     transition: var(--transition);
     color: var(--text-color);
+    cursor: pointer;
+    border: 1px var(--primary-color) solid;
 }
 
 .category-card:hover {
